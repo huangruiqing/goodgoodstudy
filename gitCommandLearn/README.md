@@ -25,3 +25,4 @@
 > 创建新分支
 ### $git checkout newBranch
 > 切换分支
+##添加ignore文件管理
