@@ -12,6 +12,11 @@
 ### $git commit file -m "desc" 
 >提交修改内容  
 git commit -am 'desc' -a all所有
+### 撤销提交comnmit
+> 
+$ git reset --hard HEAD^         回退到上个版本  
+$ git reset --hard HEAD~3        回退到前3次提交之前，以此类推，回退到n次提交之前  
+$ git reset --hard commit_id     退到/进到 指定commit的sha码  
 ### $git fetch
 >获取获取最新到本地但不merge 
 ### $git pull 
@@ -26,6 +31,8 @@ git commit -am 'desc' -a all所有
 > 创建新分支
 ### $git checkout newBranch
 > 切换分支
+### $ git checkout -b newBranch
+> 创建并切换到newBranch分支
 ### 添加ignore文件管理
 > gitignore文件内容的规则
 /表示目录,比如/A/*就表示忽略A目录下所有内容  
