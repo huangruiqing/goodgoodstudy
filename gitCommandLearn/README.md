@@ -18,7 +18,7 @@ $git reset --hard HEAD^回退到上个版本
 $git reset --hard HEAD~ 3回退到前3次提交之前，以此类推，回退到n次提交之前  
 $git reset --hard commit_id 退到/进到 指定commit的sha码  
 如果没有别的操作，直接回到上一次提交就可以了，在a分支执行  
-git reset --hard HEAD ~会回到未merge前的状态，清空暂存区，销毁数据，如果没有推送到远程，  
+git reset --hard HEAD~ 会回到未merge前的状态，清空暂存区，销毁数据，如果没有推送到远程，  
 数据就会被覆盖无法恢复，如果已推送远程，可以通过 reflog 找回。  
 ### $git fetch
 >获取获取最新到本地但不merge 
