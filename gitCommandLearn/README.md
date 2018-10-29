@@ -1,5 +1,7 @@
-# gitLearn
-学习git操作
+# gitLearn学习git操作
+## git 工具安装
+> Linux sudo apt-get install git  
+Window:到Git官网下载安装：[链接](https://git-scm.com/downloads)
 ## 操作命令 
 ### $mkdir 
 > 创建本地目录
