@@ -44,3 +44,4 @@ $ git reset --hard commit_id     退到/进到 指定commit的sha码
 这时候不可以直接使用git rm directory，这样会删除本地仓库的文件。  
 可以使用git rm -r –cached directory来删除缓冲，然后进行commit和push，这样会发现远程仓库中的不必要文件就被删除了，  
 以后可以直接使用git add -A来添加修改的内容，上传的文件就会受到.gitignore文件的内容约束。
+###commit reset head^测试
