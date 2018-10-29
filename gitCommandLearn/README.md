@@ -16,6 +16,9 @@ git commit -am 'desc' -a all所有
 > $ git reset --hard HEAD^         回退到上个版本  
 $ git reset --hard HEAD~3        回退到前3次提交之前，以此类推，回退到n次提交之前  
 $ git reset --hard commit_id     退到/进到 指定commit的sha码  
+如果没有别的操作，直接回到上一次提交就可以了，在a分支执行
+git reset --hard HEAD~ 会回到未merge前的状态，清空暂存区，销毁数据，如果没有推送到远程，  
+数据就会被覆盖无法恢复，如果已推送远程，可以通过 reflog 找回。
 ### $git fetch
 >获取获取最新到本地但不merge 
 ### $git pull 
@@ -44,4 +47,7 @@ $ git reset --hard commit_id     退到/进到 指定commit的sha码
 这时候不可以直接使用git rm directory，这样会删除本地仓库的文件。  
 可以使用git rm -r –cached directory来删除缓冲，然后进行commit和push，这样会发现远程仓库中的不必要文件就被删除了，  
 以后可以直接使用git add -A来添加修改的内容，上传的文件就会受到.gitignore文件的内容约束。
-###commit reset head^测试
+### $git reflog
+> 查看更新的版本日志
+### git log 
+> 查看历史提交记录
