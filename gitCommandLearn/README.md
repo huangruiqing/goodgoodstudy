@@ -10,7 +10,8 @@
 ### $git add file
 >添加file到git 管理 
 ### $git commit file -m "desc" 
->提交修改内容
+>提交修改内容  
+git commit -am 'desc' -a all所有
 ### $git fetch
 >获取获取最新到本地但不merge 
 ### $git pull 
