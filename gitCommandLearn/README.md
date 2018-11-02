@@ -16,7 +16,7 @@ Window:到Git官网下载安装：[链接](https://git-scm.com/downloads)
 ### $git commit file -m "desc" 
 >提交修改内容  
 git commit -am 'desc' -a all所有
-#### commit的反操作 $git reset
+  #### commit的反操作 $git reset
 > 撤销提交comnmit
 $git reset --hard HEAD^回退到上个版本  
 $git reset --hard HEAD~ 3回退到前3次提交之前，以此类推，回退到n次提交之前  
