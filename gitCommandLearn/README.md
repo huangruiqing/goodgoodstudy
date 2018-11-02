@@ -1,4 +1,6 @@
-# gitLearn学习git操作
+[TOC]
+
+# 学习git操作
 ## git 工具安装
 > Linux： sudo apt-get install git  
 Window:到Git官网下载安装：[链接](https://git-scm.com/downloads)
