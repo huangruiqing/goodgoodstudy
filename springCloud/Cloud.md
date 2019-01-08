@@ -1,6 +1,6 @@
 # SpringCloud学习
 
-#### Hystrix监控面板
+#### Hystrix（Hystrix Dashboard）监控面板
 
 
 
