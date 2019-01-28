@@ -18,8 +18,10 @@
 > ```
 >
 > 5、size变量 记录ArraryList 长度
+>
+> 使用 for循环会快
 
 ### 二 LinkedList
 
-> 1、
+> 1、使用迭代器快点
 
