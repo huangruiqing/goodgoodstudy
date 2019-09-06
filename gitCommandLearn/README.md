@@ -55,7 +55,7 @@ Window:到Git官网下载安装：[链接](https://git-scm.com/downloads)
 > 比如我们在使用git和github的时候，之前没有写.gitignore文件，就上传了一些没有必要的文件,  
 > 在添加了.gitignore文件后，就想删除远程仓库中的文件却想保存本地的文件。  
 > 这时候不可以直接使用git rm directory，这样会删除本地仓库的文件。  
-> 可以使用git rm -r –-cached directory来删除缓冲，然后进行commit和push，这样会发现远程仓库中的不必要文件就被删除了，  
+> 可以使用git rm -r --cached directory[(或者 git rm  --cached directory)来删除缓冲，然后进行commit和push，这样会发现远程仓库中的不必要文件就被删除了，  
 > 以后可以直接使用git add -A来添加修改的内容，上传的文件就会受到.gitignore文件的内容约束。
 ### $git reflog
 > 查看更新的版本日志
